@@ -24,7 +24,7 @@ $colores:(
 #redes{
     background-color: map-get($map: $colores, $key:lila-oscuro);
     color: white;
-    height: 30vh;
+    height: 40vh;
 }
 #redes .container{
     @include flex(column,center,center);
