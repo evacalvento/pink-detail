@@ -5,8 +5,12 @@
     align-items: $align;
 }
 
+$celestin : rgb(127, 245, 245);
+
+$lila :  rgb(221, 127, 245);
+
 #contacto{
-    background-image: linear-gradient(to top,rgb(127, 245, 245),rgb(221, 127, 245));
+    background-image: linear-gradient(to top, $celestin, $lila);
     color: white;
     height: 50vh;
 }
@@ -16,7 +20,7 @@
 }
 
 #redes{
-    background-image: linear-gradient(to top, rgb(221, 127, 245),rgb(127, 245, 245)) ;
+    background-image: linear-gradient(to top, $lila, $celestin) ;
     color: white;
     height: 40vh;
 
