@@ -56,6 +56,10 @@ $colores:(
     p{
         color: map-get($map: $colores, $key:blanco);
     }
+
+    a{
+        color: map-get($map: $colores, $key:violetita);
+    }
 }
 
 

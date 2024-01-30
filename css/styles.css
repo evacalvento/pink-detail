@@ -88,6 +88,9 @@ button:hover {
 #consultas .container p {
   color: white;
 }
+#consultas .container a {
+  color: #B264F7;
+}
 
 #ubi .container {
   display: flex;
