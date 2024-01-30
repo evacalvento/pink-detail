@@ -36,6 +36,16 @@ p {
   font-size: 1.2em;
 }
 
+button {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 20px;
+  border: 2px solid violet;
+  border-radius: 2px;
+  background-color: #DCBFFF;
+  color: violet;
+}
+
 #hero h1 {
   color: white;
 }
