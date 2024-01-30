@@ -50,3 +50,9 @@
         padding: 30px;
     }
 }
+
+#mayorista .container{
+    @include flex(column,center,center);
+    height: 60vh;
+    padding: 30px 20px;
+}

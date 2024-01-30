@@ -285,6 +285,15 @@ button:hover {
   padding: 30px;
 }
 
+#mayorista .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  padding: 30px 20px;
+}
+
 #trabajos .container {
   display: flex;
   flex-direction: column;
