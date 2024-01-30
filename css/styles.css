@@ -349,4 +349,11 @@ button:hover {
   color: white;
 }
 
+footer p {
+  font-size: x-small;
+  font-weight: bold;
+  padding: 20px 10px;
+  color: black;
+}
+
 /*# sourceMappingURL=styles.css.map */
