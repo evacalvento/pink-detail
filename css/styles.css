@@ -244,6 +244,13 @@ button:hover {
   margin-top: 20px;
   padding: 30px 20px;
 }
+#productos .container .carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
 
 #utencilios .container {
   display: flex;
