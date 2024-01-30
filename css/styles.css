@@ -216,18 +216,34 @@ button:hover {
   align-items: center;
 }
 
+#cita {
+  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245));
+  color: white;
+  height: 40vh;
+  padding-top: 60px;
+}
+#cita .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+}
+
 #contacto {
   background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
   color: white;
   height: 50vh;
 }
-
 #contacto .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 50px;
+}
+#contacto a {
+  color: #B264F7;
 }
 
 #redes {
@@ -243,7 +259,7 @@ button:hover {
   padding: 25px 20px;
 }
 #redes .container a {
-  color: purple;
+  color: #B264F7;
 }
 
 #productos .container {

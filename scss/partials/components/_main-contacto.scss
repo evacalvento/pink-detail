@@ -21,11 +21,17 @@ $colores:(
     background-image: linear-gradient(to top, $celestin, $lila);
     color: map-get($map: $colores, $key: blanco);
     height: 50vh;
+
+    .container{
+        @include flex(column,center,center);
+        padding: 50px;
+    }
+
+    a{
+        color: map-get($map: $colores, $key:violetita);
+    }
 }
-#contacto .container{
-    @include flex(column,center,center);
-    padding: 50px;
-}
+
 
 #redes{
     background-image: linear-gradient(to top, $lila, $celestin) ;
@@ -37,7 +43,7 @@ $colores:(
     padding: 25px 20px;
    
     a{
-        color: purple;
+        color: map-get($map: $colores, $key:violetita);
     } 
 
     }
