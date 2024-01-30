@@ -11,5 +11,9 @@ button{
     border: 2px solid violet;
     border-radius: 2px;
     background-color: map-get($map: $colores, $key:lila-medio);
-    color: violet;
+    color: white;
+    &:hover {
+        background-color: #b264f7;
+        color: white;
+    }
 }

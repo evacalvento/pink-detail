@@ -43,7 +43,11 @@ button {
   border: 2px solid violet;
   border-radius: 2px;
   background-color: #DCBFFF;
-  color: violet;
+  color: white;
+}
+button:hover {
+  background-color: #b264f7;
+  color: white;
 }
 
 #hero h1 {
