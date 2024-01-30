@@ -1,7 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
-  font-family: "Khand", sans-serif;
 }
 
 h1 {
@@ -20,12 +24,16 @@ p {
   font-size: 1.2em;
 }
 
+li {
+  list-style: circle;
+}
+
 .navbar-custom {
-  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245)); /* Cambia el color de fondo */
+  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245)); /* Cambia el color de fondo de la nav*/
 }
 
 .navbar-custom .navbar-toggler-icon {
-  background-color: rgb(221, 127, 245); /* Cambia el color del icono de la hamburguesa */
+  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245)); /* Cambia el color del icono de la hamburguesa */
 }
 
 li {
