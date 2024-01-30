@@ -1,9 +1,12 @@
+$celestin : rgb(127, 245, 245);
+$lila :  rgb(221, 127, 245);
+
 .navbar-custom {
-    background-image: linear-gradient(to top,  rgb(221, 127, 245),rgb(127, 245, 245));/* Cambia el color de fondo */
+    background-image: linear-gradient(to top, $lila, $celestin);/* Cambia el color de fondo */
 }
 
 .navbar-custom .navbar-toggler-icon {
-    background-image: linear-gradient(to top,  rgb(221, 127, 245),rgb(127, 245, 245)); /* Cambia el color del icono de la hamburguesa */
+    background-color: $lila; /* Cambia el color del icono de la hamburguesa */
 }
 
 li{list-style: none;}

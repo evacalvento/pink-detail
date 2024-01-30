@@ -9,7 +9,7 @@
 }
 
 .navbar-custom .navbar-toggler-icon {
-  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245)); /* Cambia el color del icono de la hamburguesa */
+  background-color: rgb(221, 127, 245); /* Cambia el color del icono de la hamburguesa */
 }
 
 li {
