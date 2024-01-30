@@ -12,7 +12,7 @@ $colores:(
 }
 
 #contacto{
-    background-color: map-get($map: $colores, $key:lila-medio);
+    background-image: linear-gradient(to top,rgb(127, 245, 245),rgb(221, 127, 245));
     color: white;
     height: 50vh;
 }
@@ -22,7 +22,7 @@ $colores:(
 }
 
 #redes{
-    background-color: map-get($map: $colores, $key:lila-oscuro);
+    background-image: linear-gradient(to top, rgb(221, 127, 245),rgb(127, 245, 245)) ;
     color: white;
     height: 40vh;
 }

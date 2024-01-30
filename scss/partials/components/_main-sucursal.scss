@@ -13,7 +13,7 @@ $colores:(
 }
 
 #sucursal{
-    background-color: map-get($map: $colores, $key:lila-medio);
+    background-image: linear-gradient(to bottom, rgb(221, 127, 245),rgb(127, 245, 245)) ;
     color: white;
     height: 60vh;
 }

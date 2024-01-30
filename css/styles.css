@@ -191,7 +191,7 @@ button:hover {
 }
 
 #sucursal {
-  background-color: #DCBFFF;
+  background-image: linear-gradient(to bottom, rgb(221, 127, 245), rgb(127, 245, 245));
   color: white;
   height: 60vh;
 }
@@ -204,7 +204,7 @@ button:hover {
 }
 
 #contacto {
-  background-color: #DCBFFF;
+  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
   color: white;
   height: 50vh;
 }
@@ -218,7 +218,7 @@ button:hover {
 }
 
 #redes {
-  background-color: #D0A2F7;
+  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245));
   color: white;
   height: 40vh;
 }
