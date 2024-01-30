@@ -154,11 +154,17 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/foto-hero.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/foto-hero.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   color: white;
+}
+#pulidos .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #tratamientos {
@@ -172,6 +178,12 @@ button:hover {
   background-repeat: no-repeat;
   color: white;
   margin-top: 20px;
+}
+#tratamientos .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #ploteo {
