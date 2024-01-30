@@ -311,6 +311,10 @@ button:hover {
   align-items: center;
   height: 60vh;
   padding: 30px 20px;
+  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245));
+}
+#mayorista .container h3 {
+  color: white;
 }
 
 #trabajos .container {

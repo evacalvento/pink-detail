@@ -51,8 +51,21 @@
     }
 }
 
+$colores:(
+    lila-claro: #E5D4FF,
+    lila-medio: #DCBFFF,
+    lila-oscuro: #D0A2F7,
+    violetita: #B264F7,
+    blanco: white,
+);
+
 #mayorista .container{
     @include flex(column,center,center);
     height: 60vh;
     padding: 30px 20px;
+    background-image: linear-gradient(to top, $lila, $celestin);
+
+    h3{
+        color: map-get($map: $colores, $key:blanco);
+    }
 }
