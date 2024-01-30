@@ -16,8 +16,8 @@
     background-image:
     linear-gradient(
         0deg,
-        rgba(0,0,0,0.2),
-        rgba(0,0,0,0.2)
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
     )
     ,url(../images/productos-shampoo.jpg);
     @include background(cover,center center,no-repeat);
@@ -31,8 +31,8 @@
     background-image:
     linear-gradient(
         0deg,
-        rgba(0,0,0,0.2),
-        rgba(0,0,0,0.2)
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
     )
     ,url(../images/productos-spray.jpg);
     @include background(cover,center center,no-repeat);
