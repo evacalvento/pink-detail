@@ -1,0 +1,24 @@
+
+$colores:(
+    lila-claro: #E5D4FF,
+    lila-medio: #DCBFFF,
+    lila-oscuro: #D0A2F7,
+);
+
+@mixin flex($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+#sucursal{
+    background-color: map-get($map: $colores, $key:lila-medio);
+    color: white;
+    height: 60vh;
+}
+
+#sucursal .container{
+    @include flex(column,center,center);
+}
+

@@ -1,0 +1,11 @@
+$color-nav : #E5D4FF;
+
+.navbar-custom {
+    background-color: $color-nav; /* Cambia el color de fondo */
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-color: $color-nav; /* Cambia el color del icono de la hamburguesa */
+}
+
+li{list-style: none;}

@@ -1,0 +1,331 @@
+/*HEADER*/
+.navbar-custom {
+  background-color: #E5D4FF; /* Cambia el color de fondo */
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-color: #E5D4FF; /* Cambia el color del icono de la hamburguesa */
+}
+
+li {
+  list-style: none;
+}
+
+/* INDEX */
+#hero h1 {
+  color: white;
+}
+
+#hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/la-verdadera.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#consultas h2 {
+  color: white;
+}
+
+#consultas p {
+  color: white;
+}
+
+#consultas .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-kate-trifo-6414318.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+#ubi h2 {
+  color: white;
+}
+
+#ubi .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/foto-hero-3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 20px 40px;
+  margin-top: 20px;
+}
+
+#beneficio1 li {
+  list-style: circle;
+}
+
+#beneficio2 li {
+  list-style: circle;
+}
+
+#beneficio3 li {
+  list-style: circle;
+}
+
+#beneficio1 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+#beneficio2 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  padding: 20px;
+  background-color: white;
+}
+
+#beneficio3 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  padding: 20px;
+  background-color: white;
+}
+
+/*SERVICIOS*/
+#pulidos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/foto-hero.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#tratamientos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/trompa-jaguar.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 20px;
+}
+
+#ploteo {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-erik-mclean-5610186.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 20px;
+}
+
+#ploteo .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#ploteo button {
+  margin-left: 32px;
+}
+
+/*SUCURSAL*/
+#sucursal {
+  background-color: #DCBFFF;
+  color: white;
+  height: 60vh;
+}
+
+#sucursal .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CONTACTO*/
+#contacto {
+  background-color: #DCBFFF;
+  color: white;
+  height: 50vh;
+}
+
+#contacto .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+#redes {
+  background-color: #D0A2F7;
+  color: white;
+  height: 30vh;
+}
+
+#redes .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+}
+
+#redes a {
+  color: purple;
+}
+
+/*PRODUCTOS*/
+#productos .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/productos-shampoo.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 20px;
+  padding: 30px 20px;
+}
+
+#utencilios .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/productos-spray.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 20px;
+  padding: 30px 20px;
+}
+
+.carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+/*HECHOS*/
+#trabajos .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/capacitate.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#trabajos h1 {
+  color: white;
+}
+
+#hecho-1 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tablero.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 80vh;
+  padding: 30px 20px;
+  margin-top: 20px;
+}
+
+#hecho-2 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hechos.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 80vh;
+  padding: 30px 20px;
+  margin-top: 20px;
+}
+
+#hecho-3 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/optica.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 80vh;
+  padding: 30px 20px;
+  margin-top: 20px;
+}
+
+#hecho-4 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/motor.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+#hecho-4 h2 {
+  color: white;
+}
+
+/*Footer*/
+footer p {
+  font-size: x-small;
+  font-weight: bold;
+  padding: 20px 10px;
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */

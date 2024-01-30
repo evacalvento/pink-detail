@@ -1,0 +1,47 @@
+@mixin flex($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin background ($size, $position, $repeat){
+    background-size: $size;
+    background-position: $position;
+    background-repeat: $repeat;
+}
+
+#productos .container{
+    @include flex(column,center,center);
+    background-image:
+    linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../images/productos-shampoo.jpg);
+    @include background(cover,center center,no-repeat);
+    color: white;
+    margin-top: 20px;
+    padding: 30px 20px;
+}
+
+#utencilios .container{
+    @include flex(column,center,center);
+    background-image:
+    linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../images/productos-spray.jpg);
+    @include background(cover,center center,no-repeat);
+    color: white;
+    margin-top: 20px;
+    padding: 30px 20px;
+}
+
+.carta{
+    @include flex(column,center,center);
+    padding: 30px;
+}

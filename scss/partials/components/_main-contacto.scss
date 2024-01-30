@@ -1,0 +1,33 @@
+$colores:(
+    lila-claro: #E5D4FF,
+    lila-medio: #DCBFFF,
+    lila-oscuro: #D0A2F7,
+);
+
+@mixin flex($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+#contacto{
+    background-color: map-get($map: $colores, $key:lila-medio);
+    color: white;
+    height: 50vh;
+}
+#contacto .container{
+    @include flex(column,center,center);
+    padding: 50px;
+}
+
+#redes{
+    background-color: map-get($map: $colores, $key:lila-oscuro);
+    color: white;
+    height: 30vh;
+}
+#redes .container{
+    @include flex(column,center,center);
+    padding: 25px 20px;
+}
+#redes a{color: purple;}
