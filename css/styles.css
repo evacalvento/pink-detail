@@ -1,4 +1,9 @@
-/*HEADER*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar-custom {
   background-color: #E5D4FF; /* Cambia el color de fondo */
 }
@@ -11,7 +16,26 @@ li {
   list-style: none;
 }
 
-/* INDEX */
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
 #hero h1 {
   color: white;
 }
@@ -111,7 +135,6 @@ li {
   background-color: white;
 }
 
-/*SERVICIOS*/
 #pulidos {
   display: flex;
   flex-direction: column;
@@ -157,7 +180,6 @@ li {
   margin-left: 32px;
 }
 
-/*SUCURSAL*/
 #sucursal {
   background-color: #DCBFFF;
   color: white;
@@ -171,7 +193,6 @@ li {
   align-items: center;
 }
 
-/*CONTACTO*/
 #contacto {
   background-color: #DCBFFF;
   color: white;
@@ -204,7 +225,6 @@ li {
   color: purple;
 }
 
-/*PRODUCTOS*/
 #productos .container {
   display: flex;
   flex-direction: column;
@@ -241,7 +261,6 @@ li {
   padding: 30px;
 }
 
-/*HECHOS*/
 #trabajos .container {
   display: flex;
   flex-direction: column;
@@ -308,7 +327,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 80vh;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/motor.jpg);
   background-size: cover;
   background-position: center center;
@@ -318,14 +337,6 @@ li {
 
 #hecho-4 h2 {
   color: white;
-}
-
-/*Footer*/
-footer p {
-  font-size: x-small;
-  font-weight: bold;
-  padding: 20px 10px;
-  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
