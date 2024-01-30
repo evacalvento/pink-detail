@@ -2,6 +2,8 @@ $colores:(
     lila-claro: #E5D4FF,
     lila-medio: #DCBFFF,
     lila-oscuro: #D0A2F7,
+    violetita: #B264F7,
+    blanco: white,
 );
 
 button{
@@ -11,9 +13,10 @@ button{
     border: 2px solid violet;
     border-radius: 2px;
     background-color: map-get($map: $colores, $key:lila-medio);
-    color: white;
+    color: map-get($map: $colores, $key: blanco);
+
     &:hover {
-        background-color: #b264f7;
-        color: white;
+        background-color: map-get($map: $colores, $key: violetita);
+        color: map-get($map: $colores, $key: blanco)
     }
 }

@@ -9,9 +9,17 @@ $celestin : rgb(127, 245, 245);
 
 $lila :  rgb(221, 127, 245);
 
+$colores:(
+    lila-claro: #E5D4FF,
+    lila-medio: #DCBFFF,
+    lila-oscuro: #D0A2F7,
+    violetita: #B264F7,
+    blanco: white,
+);
+
 #contacto{
     background-image: linear-gradient(to top, $celestin, $lila);
-    color: white;
+    color: map-get($map: $colores, $key: blanco);
     height: 50vh;
 }
 #contacto .container{
@@ -21,7 +29,7 @@ $lila :  rgb(221, 127, 245);
 
 #redes{
     background-image: linear-gradient(to top, $lila, $celestin) ;
-    color: white;
+    color: map-get($map: $colores, $key: blanco);
     height: 40vh;
 
     .container{

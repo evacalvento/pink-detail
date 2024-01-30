@@ -11,6 +11,13 @@
     background-repeat: $repeat;
 }
 
+$colores:(
+    lila-claro: #E5D4FF,
+    lila-medio: #DCBFFF,
+    lila-oscuro: #D0A2F7,
+    violetita: #B264F7,
+    blanco: white,
+);
 
 #trabajos .container{
     @include flex(column,center,center);
@@ -22,8 +29,12 @@
     )
     ,url(../images/capacitate.jpg);
     @include background(cover,center center,no-repeat);
+
+    h1{
+        color: map-get($map: $colores, $key: blanco);
+    }
 }
-#trabajos h1{color: white;}
+
 
 #hecho-1 .container{
     @include flex(column,center,center);
@@ -35,10 +46,14 @@
     )
     ,url(../images/tablero.jpg);
     @include background(cover,center center,no-repeat);
-    color: white;
+    color: map-get($map: $colores, $key: blanco);
     height: 80vh;
     padding: 30px 20px;
     margin-top: 20px;
+
+    h2{
+        color: map-get($map: $colores, $key: blanco);
+    }
 }
 
 #hecho-2 .container{
@@ -51,10 +66,14 @@
     )
     ,url(../images/hechos.jpg);
     @include background(cover,center center,no-repeat);
-    color: white;
+    color: map-get($map: $colores, $key: blanco);
     height: 80vh;
     padding: 30px 20px;
     margin-top: 20px;
+
+    h2{
+        color: map-get($map: $colores, $key: blanco);
+    }
 }
 
 #hecho-3 .container{
@@ -67,10 +86,14 @@
     )
     ,url(../images/optica.jpg);
     @include background(cover,center center,no-repeat);
-    color: white;
+    color: map-get($map: $colores, $key: blanco);
     height: 80vh;
     padding: 30px 20px;
     margin-top: 20px;
+
+    h2{
+        color: map-get($map: $colores, $key: blanco);
+    }
 }
 
 #hecho-4 .container{
@@ -85,6 +108,8 @@
     @include background(cover,center center,no-repeat);
     margin-top: 20px;
 
-    h2{color:white;}
+    h2{
+      color: map-get($map: $colores, $key: blanco);
+    }
 }
 

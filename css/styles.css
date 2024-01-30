@@ -50,7 +50,7 @@ button {
   color: white;
 }
 button:hover {
-  background-color: #b264f7;
+  background-color: #B264F7;
   color: white;
 }
 
@@ -296,8 +296,7 @@ button:hover {
   background-position: center center;
   background-repeat: no-repeat;
 }
-
-#trabajos h1 {
+#trabajos .container h1 {
   color: white;
 }
 
@@ -315,6 +314,9 @@ button:hover {
   padding: 30px 20px;
   margin-top: 20px;
 }
+#hecho-1 .container h2 {
+  color: white;
+}
 
 #hecho-2 .container {
   display: flex;
@@ -330,6 +332,9 @@ button:hover {
   padding: 30px 20px;
   margin-top: 20px;
 }
+#hecho-2 .container h2 {
+  color: white;
+}
 
 #hecho-3 .container {
   display: flex;
@@ -344,6 +349,9 @@ button:hover {
   height: 80vh;
   padding: 30px 20px;
   margin-top: 20px;
+}
+#hecho-3 .container h2 {
+  color: white;
 }
 
 #hecho-4 .container {

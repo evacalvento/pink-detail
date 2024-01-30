@@ -12,6 +12,14 @@
     background-repeat: $repeat;
 }
 
+$colores:(
+    lila-claro: #E5D4FF,
+    lila-medio: #DCBFFF,
+    lila-oscuro: #D0A2F7,
+    violetita: #B264F7,
+    blanco: white,
+);
+
 #hero .container{
     @include flex(column,center,center);
     height: 90vh;
@@ -23,7 +31,9 @@
     ,url(../images/la-verdadera.jpg);
     @include background(cover,center center,no-repeat);
 
-    h1 {color: white;}
+    h1 {
+        color: map-get($map: $colores, $key:blanco);
+    }
 }
 
 #consultas .container{
@@ -39,8 +49,13 @@
     padding: 10px 30px;
     margin-top: 20px;
 
-    h2 {color: white;}
-    p{color: white;}
+    h2 {
+        color: map-get($map: $colores, $key:blanco);
+    }
+
+    p{
+        color: map-get($map: $colores, $key:blanco);
+    }
 }
 
 
@@ -57,7 +72,9 @@
     padding: 20px 40px;
     margin-top: 20px;
 
-    h2 {color: white;}
+    h2 {
+        color: map-get($map: $colores, $key:blanco);
+    }
 }
 
 #beneficio1 .container{
@@ -66,9 +83,11 @@
     padding: 20px;
     margin-top: 20px;
     margin-left: 10px;
-    background-color: white;
+    background-color: map-get($map: $colores, $key:blanco);
 
-    li {list-style: circle;}
+    li {
+        list-style: circle;
+    }
 }
 
 #beneficio2 .container{
@@ -76,9 +95,11 @@
     height: 35vh;
     padding: 20px;
     margin-left: 10px;
-    background-color: white;
+    background-color: map-get($map: $colores, $key:blanco);
 
-    li {list-style: circle;}   
+    li {
+        list-style: circle;
+    }   
 }
 
 #beneficio3 .container{
@@ -86,7 +107,9 @@
     height: 35vh;
     padding: 20px;
     margin-left: 10px;
-    background-color: white;
+    background-color: map-get($map: $colores, $key:blanco);
 
-    li {list-style: circle;}
+    li {
+        list-style: circle;
+    }
 }
