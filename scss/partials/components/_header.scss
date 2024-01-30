@@ -6,7 +6,10 @@ $lila :  rgb(221, 127, 245);
 }
 
 .navbar-custom .navbar-toggler-icon {
-    background-color: $lila; /* Cambia el color del icono de la hamburguesa */
+    background-color: $celestin; /* Cambia el color del icono de la hamburguesa */
+    &:hover{
+        background-color: $celestin;
+    }
 }
 
 li{list-style: none;}
