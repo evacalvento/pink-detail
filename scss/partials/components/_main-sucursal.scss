@@ -9,9 +9,11 @@
     background-image: linear-gradient(to bottom, rgb(221, 127, 245),rgb(127, 245, 245)) ;
     color: white;
     height: 60vh;
+
+    .container{
+        @include flex(column,center,center);
+    }
 }
 
-#sucursal .container{
-    @include flex(column,center,center);
-}
+
 

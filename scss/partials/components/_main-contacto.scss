@@ -19,9 +19,14 @@
     background-image: linear-gradient(to top, rgb(221, 127, 245),rgb(127, 245, 245)) ;
     color: white;
     height: 40vh;
-}
-#redes .container{
+
+    .container{
     @include flex(column,center,center);
     padding: 25px 20px;
+   
+    a{
+        color: purple;
+    } 
+
+    }
 }
-#redes a{color: purple;}

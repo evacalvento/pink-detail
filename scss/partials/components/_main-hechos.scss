@@ -17,8 +17,8 @@
     height: 90vh;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
     )
     ,url(../images/capacitate.jpg);
     @include background(cover,center center,no-repeat);
@@ -30,8 +30,8 @@
     background-image:
     linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
     )
     ,url(../images/tablero.jpg);
     @include background(cover,center center,no-repeat);
@@ -46,8 +46,8 @@
     background-image:
     linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
     )
     ,url(../images/hechos.jpg);
     @include background(cover,center center,no-repeat);
@@ -62,8 +62,8 @@
     background-image:
     linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
     )
     ,url(../images/optica.jpg);
     @include background(cover,center center,no-repeat);
@@ -78,11 +78,13 @@
     height: 80vh;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
     )
     ,url(../images/motor.jpg);
     @include background(cover,center center,no-repeat);
     margin-top: 20px;
+
+    h2{color:white;}
 }
-#hecho-4 h2{color:white;}
+
