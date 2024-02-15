@@ -74,7 +74,7 @@ $lila :  rgb(221, 127, 245);
 #opcion{
     background-image: linear-gradient(to top, $lila, $celestin);
     color: map-get($map: $colores, $key: blanco);
-    height: 50vh;
+    height: 60vh;
 
     .container{
         @include flex(column,center,center);
@@ -89,11 +89,11 @@ $lila :  rgb(221, 127, 245);
 #sino{
     background-image: linear-gradient(to top, $celestin, $lila);
     color: map-get($map: $colores, $key: blanco);
-    height: 35vh;
+    height: 50vh;
 
     .container{
         @include flex(column,center,center);
-        padding: 50px;
+        padding: 60px;
     }
 
     a{
