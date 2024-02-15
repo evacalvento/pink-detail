@@ -86,13 +86,16 @@ $celestin : rgb(127, 245, 245);
 $lila :  rgb(221, 127, 245);
 
 
-#pregunta1 .container{
-    @include flex(column,center,center);
-    height: 30vh;
-    padding: 20px;
-    margin-top: 20px;
+#pregunta1{
     background-image: linear-gradient(to top, $celestin, $lila);
 
+    .container{
+        @include flex(column,center,center);
+        height: 30vh;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
     li {list-style: circle;}
 
     h3{color: map-get($map: $colores, $key:blanco);}
@@ -101,12 +104,15 @@ $lila :  rgb(221, 127, 245);
 
 
 
-#pregunta2 .container{
-    @include flex(column,center,center);
-    height: 30vh;
-    padding: 20px;
+#pregunta2{
     background-image: linear-gradient(to top, $lila, $celestin);
 
+    .container{
+        @include flex(column,center,center);
+        height: 30vh;
+        padding: 20px;
+    }
+
     li {list-style: circle;}
 
     h3{color: map-get($map: $colores, $key:blanco);}
@@ -114,23 +120,29 @@ $lila :  rgb(221, 127, 245);
 }
 
 
-#pregunta3 .container{
-    @include flex(column,center,center);
-    height: 30vh;
-    padding: 20px;
+#pregunta3{
     background-image: linear-gradient(to top, $celestin, $lila);
 
+    .container{
+        @include flex(column,center,center);
+        height: 30vh;
+        padding: 20px;
+    }
+
     li {list-style: circle;}
 
     h3{color: map-get($map: $colores, $key:blanco);}
 
 }
 
-#pregunta4 .container{
-    @include flex(column,center,center);
-    height: 30vh;
-    padding: 20px;
+#pregunta4{
     background-image: linear-gradient(to top, $lila, $celestin);
+
+    .container{
+        @include flex(column,center,center);
+        height: 30vh;
+        padding: 20px;
+    }
 
     h3{color: map-get($map: $colores, $key:blanco);}
 
@@ -140,11 +152,14 @@ $lila :  rgb(221, 127, 245);
 
 }
 
-#pregunta5 .container{
-    @include flex(column,center,center);
-    height: 30vh;
-    padding: 20px;
+#pregunta5{
     background-image: linear-gradient(to top, $celestin, $lila);
+
+    .container{
+        @include flex(column,center,center);
+        height: 30vh;
+        padding: 20px;
+    }
 
     h3{color: map-get($map: $colores, $key:blanco);}
 
@@ -152,4 +167,8 @@ $lila :  rgb(221, 127, 245);
 
     p{color: black;}
 
+}
+
+.edito1{
+    background-image: linear-gradient(to top, $celestin, $celestin);   
 }
