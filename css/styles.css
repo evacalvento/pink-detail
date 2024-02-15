@@ -248,6 +248,38 @@ button:hover {
   align-items: center;
 }
 
+#opcion {
+  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
+  color: white;
+  height: 50vh;
+}
+#opcion .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+#opcion a {
+  color: #B264F7;
+}
+
+#sino {
+  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245));
+  color: white;
+  height: 35vh;
+}
+#sino .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+#sino a {
+  color: #B264F7;
+}
+
 #sucursal {
   background-image: linear-gradient(to bottom, rgb(221, 127, 245), rgb(127, 245, 245));
   color: white;
