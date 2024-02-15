@@ -72,7 +72,7 @@ $lila :  rgb(221, 127, 245);
 
 
 #opcion{
-    background-image: linear-gradient(to top, $celestin, $lila);
+    background-image: linear-gradient(to top, $lila, $celestin);
     color: map-get($map: $colores, $key: blanco);
     height: 50vh;
 
@@ -87,7 +87,7 @@ $lila :  rgb(221, 127, 245);
 }
 
 #sino{
-    background-image: linear-gradient(to top, $lila, $celestin);
+    background-image: linear-gradient(to top, $celestin, $lila);
     color: map-get($map: $colores, $key: blanco);
     height: 35vh;
 
