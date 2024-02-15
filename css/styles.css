@@ -306,24 +306,8 @@ button:hover {
   padding: 25px 20px;
 }
 
-#contacto {
-  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
-  color: white;
-  height: 50vh;
-}
-#contacto .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-}
-#contacto a {
-  color: #B264F7;
-}
-
 #redes {
-  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245));
+  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
   color: white;
   height: 40vh;
 }
@@ -336,6 +320,26 @@ button:hover {
 }
 #redes .container a {
   color: #B264F7;
+}
+
+#contacto {
+  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245));
+  color: white;
+  height: 40vh;
+}
+#contacto .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+#contacto a {
+  color: #B264F7;
+}
+
+.edito {
+  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
 }
 
 #productos .container {

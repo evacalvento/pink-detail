@@ -17,24 +17,8 @@ $colores:(
     blanco: white,
 );
 
-#contacto{
-    background-image: linear-gradient(to top, $celestin, $lila);
-    color: map-get($map: $colores, $key: blanco);
-    height: 50vh;
-
-    .container{
-        @include flex(column,center,center);
-        padding: 50px;
-    }
-
-    a{
-        color: map-get($map: $colores, $key:violetita);
-    }
-}
-
-
 #redes{
-    background-image: linear-gradient(to top, $lila, $celestin) ;
+    background-image: linear-gradient(to top, $celestin, $lila) ;
     color: map-get($map: $colores, $key: blanco);
     height: 40vh;
 
@@ -47,4 +31,23 @@ $colores:(
     } 
 
     }
+}
+
+#contacto{
+    background-image: linear-gradient(to top, $lila, $celestin);
+    color: map-get($map: $colores, $key: blanco);
+    height: 40vh;
+
+    .container{
+        @include flex(column,center,center);
+        padding: 50px;
+    }
+
+    a{
+        color: map-get($map: $colores, $key:violetita);
+    }
+}
+
+.edito{
+    background-image: linear-gradient(to top, $celestin, $lila);   
 }
