@@ -296,10 +296,6 @@ button:hover {
   color: #B264F7;
 }
 
-.edito {
-  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
-}
-
 #sucursal {
   background-image: linear-gradient(to bottom, rgb(221, 127, 245), rgb(127, 245, 245));
   color: white;
@@ -357,10 +353,6 @@ button:hover {
 }
 #contacto a {
   color: #B264F7;
-}
-
-.edito {
-  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
 }
 
 #productos .container {

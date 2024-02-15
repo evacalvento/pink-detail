@@ -210,10 +210,6 @@ button:hover {
   color: black;
 }
 
-.edito1 {
-  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(127, 245, 245));
-}
-
 #pulidos {
   display: flex;
   flex-direction: column;
@@ -269,7 +265,7 @@ button:hover {
 }
 
 #opcion {
-  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
+  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245));
   color: white;
   height: 50vh;
 }
@@ -285,7 +281,7 @@ button:hover {
 }
 
 #sino {
-  background-image: linear-gradient(to top, rgb(221, 127, 245), rgb(127, 245, 245));
+  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
   color: white;
   height: 35vh;
 }
@@ -298,10 +294,6 @@ button:hover {
 }
 #sino a {
   color: #B264F7;
-}
-
-.edito {
-  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
 }
 
 #sucursal {
@@ -361,10 +353,6 @@ button:hover {
 }
 #contacto a {
   color: #B264F7;
-}
-
-.edito {
-  background-image: linear-gradient(to top, rgb(127, 245, 245), rgb(221, 127, 245));
 }
 
 #productos .container {
