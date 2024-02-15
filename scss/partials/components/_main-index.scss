@@ -88,7 +88,7 @@ $lila :  rgb(221, 127, 245);
 
 #pregunta1 .container{
     @include flex(column,center,center);
-    height: 40vh;
+    height: 30vh;
     padding: 20px;
     margin-top: 20px;
     background-image: linear-gradient(to top, $celestin, $lila);
@@ -103,7 +103,7 @@ $lila :  rgb(221, 127, 245);
 
 #pregunta2 .container{
     @include flex(column,center,center);
-    height: 40vh;
+    height: 30vh;
     padding: 20px;
     background-image: linear-gradient(to top, $lila, $celestin);
 
@@ -116,7 +116,7 @@ $lila :  rgb(221, 127, 245);
 
 #pregunta3 .container{
     @include flex(column,center,center);
-    height: 40vh;
+    height: 30vh;
     padding: 20px;
     background-image: linear-gradient(to top, $celestin, $lila);
 
@@ -128,7 +128,7 @@ $lila :  rgb(221, 127, 245);
 
 #pregunta4 .container{
     @include flex(column,center,center);
-    height: 40vh;
+    height: 30vh;
     padding: 20px;
     background-image: linear-gradient(to top, $lila, $celestin);
 
@@ -142,7 +142,7 @@ $lila :  rgb(221, 127, 245);
 
 #pregunta5 .container{
     @include flex(column,center,center);
-    height: 40vh;
+    height: 30vh;
     padding: 20px;
     background-image: linear-gradient(to top, $celestin, $lila);
 
