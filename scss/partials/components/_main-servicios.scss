@@ -23,6 +23,7 @@
      ,url(../images/pulidos.jpg);
     @include background(cover,center center,no-repeat);
     color: white;
+    padding-top: 35px;
 
     .container{
         @include flex(column,center,center);
@@ -41,6 +42,7 @@
     @include background(cover,center center,no-repeat);
     color: white;
     margin-top: 20px;
+    padding-top: 35px;
 
     .container{
         @include flex(column,center,center);

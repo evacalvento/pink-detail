@@ -210,6 +210,7 @@ button:hover {
   background-position: center center;
   background-repeat: no-repeat;
   color: white;
+  padding-top: 35px;
 }
 #pulidos .container {
   display: flex;
@@ -229,6 +230,7 @@ button:hover {
   background-repeat: no-repeat;
   color: white;
   margin-top: 20px;
+  padding-top: 35px;
 }
 #tratamientos .container {
   display: flex;
@@ -288,6 +290,7 @@ button:hover {
   background-image: linear-gradient(to bottom, rgb(221, 127, 245), rgb(127, 245, 245));
   color: white;
   height: 60vh;
+  padding: 30px 20px;
 }
 #sucursal .container {
   display: flex;
